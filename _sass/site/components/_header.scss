@@ -64,6 +64,10 @@
       height: rem(48px);
 
       a {
+        display: block;
+        width: 100%;
+        height: 100%;
+
         &:focus,
         &:active {
           background: inherit;
@@ -75,13 +79,10 @@
           outline: 0;
         }
 
-        svg {
-          height: 100%;
+        img {
           width: 100%;
-
-          #logo {
-            fill: var(--color-text);
-          }
+          height: 100%;
+          object-fit: contain;
         }
       }
     }
