@@ -1,9 +1,19 @@
 
+# TODO items
+* add script for generating project folders (in triplicate for images, files, and layout)
+
+
+
+
+
+
+
+-------------
 # Urgent vs Important
-1. [ ] RAG demo 
-    a. [ ] structure repo nicely with src, data, tests, and notebooks
-    b. [ ] add README.md (gif with pdf dragging)
-2. Add code to existing items
+1. [x] RAG demo 
+    a. [x] structure repo nicely with src, data, tests, and notebooks
+    b. [x] add README.md (gif with pdf dragging)
+2.[x] Add code to existing items
 
 
 ## Important for if it were submitted tomorrow
