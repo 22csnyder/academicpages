@@ -97,6 +97,7 @@ bundle install
 adaptation of this material (all image formats, text and additional media files) without express and written permission from this site’s author and/or owner is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to Chris Snyder and/or path-math.com with appropriate and specific direction to the original content.
 
 
+
 <!-- 
 ## Ruby
 ### Notes on Ruby Environment Management

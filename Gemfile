@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 source 'https://rubygems.org' do
-  gem "jekyll", "4.3.3"
+  # gem "jekyll", "4.3.3"
   gem "ruby"
 end
 #updated jekyll version fixed err 
@@ -19,7 +19,9 @@ end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
+# gem "jekyll-sass-converter", "~> 3.0"
+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

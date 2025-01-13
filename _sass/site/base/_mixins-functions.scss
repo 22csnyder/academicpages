@@ -1,4 +1,14 @@
-@use 'sass:math';
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+    @return $number;
+}
+
+@function rem($pixels) {
+    $pixels: strip-unit($pixels);
+    @return ($pixels / 16) * 1rem;
+}
 
 @mixin visually-hidden {
   border: 0;
@@ -11,9 +21,7 @@
   width: 1px;
 }
 
-@function rem($size) {
-  @return math.div($size, 16px) * 1rem;
-}
+
 
 @mixin element-padding {
   padding: var(--inner-padding-horizontal) var(--inner-padding);
