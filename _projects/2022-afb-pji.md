@@ -23,8 +23,7 @@ content_layout:
     images:
       - caption:
         description: #'Description of the image'
-        url: "/projects/2022-afb-pji/ss results 3 number specimens copy crop.png"
-        # url: "/projects/2022-afb-pji/ss introduction copy crop.png"
+        url: "/projects/2022-afb-pji/ss results 3 number specimens crop.png"
         width:
         height:
       - caption:
